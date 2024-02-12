@@ -1,7 +1,7 @@
 # Star Wars Universe Explorer
 This React application provides information about characters, ships, and episodes from the Star Wars universe. It utilizes an open GraphQL API provided by Star Wars SWAPI as the data source.
 
-### Overview
+## Overview
 The application consists of several pages, each accessible via a unique URL and featuring routing. It's built using React and is designed to be responsive, supporting various screen resolutions.  
 While the design of the application is flexible, it aims to prioritize readability and clarity.
 
@@ -15,7 +15,10 @@ Episodes Page: Displays a list of episodes with their titles, release years, and
 Episode Details Page: Retrieves information about a specific Star Wars episode.  
 
 ## Implementation
-The application leverages React components to structure each page and utilize GraphQL queries to fetch data from the Star Wars SWAPI GraphQL API. Routing is managed using React Router, enabling seamless navigation between different pages. 
+The application leverages React components to structure each page and utilize GraphQL queries to fetch data from the Star Wars SWAPI GraphQL API. Routing is managed using React Router, enabling seamless navigation between different pages.
+
+## Build & Deploy
+The application automatically builds and deploys to GitHub Pages using GitHub Actions. To see this, go to the Actions tab in the project repository
 
 ## Tech Stack
 
@@ -25,6 +28,8 @@ The project utilizes the following technologies, frameworks, libs:
 - TypeScript
 - Material UI
 - ESLint
+- Jest
+- React Testing Library
 - Vite
 
 ## Installation
@@ -57,3 +62,10 @@ To run the project locally, follow these steps:
 npm run dev
 ```
 2. Open your web browser and visit http://localhost:5173 to access the application.
+
+## Running the Tests
+To execute the tests for the application, use the following command:
+
+```bash
+npm test
+```
