@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
+# Star Wars Universe Explorer
+This React application provides information about characters, ships, and episodes from the Star Wars universe. It utilizes an open GraphQL API provided by Star Wars SWAPI as the data source.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Overview
+The application consists of several pages, each accessible via a unique URL and featuring routing. It's built using React and is designed to be responsive, supporting various screen resolutions. While the design of the application is flexible, it aims to prioritize readability and clarity.
 
-Currently, two official plugins are available:
+### Pages
+Home Page: Displays all sections.
+Characters Page: Shows a list of characters with their names and images. Users can filter the list by different criteria such as planet, species, or episode.
+Character Details Page: Retrieves detailed information about a specific character, including name, origin, affiliation, and episodes.
+Ships Page: Displays a list of ships with their names and images.
+Ship Details Page: Retrieves information about a specific ship, including name, class, model, and images.
+Episodes Page: Displays a list of episodes with their titles, release years, and image.
+Episode Details Page: Retrieves information about a specific Star Wars episode.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Implementation
+The application leverages React components to structure each page and utilize GraphQL queries to fetch data from the Star Wars SWAPI GraphQL API. Routing is managed using React Router, enabling seamless navigation between different pages. 
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The project utilizes the following technologies, frameworks, libs:
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- TypeScript
+- Material UI
+- ESLint
+- Vite
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Installation
+
+To install and set up the project locally, follow these steps:
+
+1. Clone the repository: 
+
+```bash
+git clone https://github.com/MitrixD/krementsov.starwars.app.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory: 
+
+```bash
+cd krementsov.starwars.app
+```
+
+3. Install the dependencies: 
+
+```bash
+npm install
+```
+## Usage
+To run the project locally, follow these steps:
+
+1. Start the development server:
+
+```bash
+npm run dev
+```
+2. Open your web browser and visit http://localhost:5173 to access the application.
