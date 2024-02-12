@@ -6,6 +6,7 @@ import { NavMenu } from "./NavMenu.tsx";
 const Navbar = () => {
   return (
     <AppBar
+      data-testid="nav-bar"
       position="static"
       sx={{
         background: "transparent",

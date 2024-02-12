@@ -7,7 +7,7 @@ export const NavMenu: FC = () => {
   const location = useLocation();
 
   return (
-    <Stack direction={"row"} gap={2}>
+    <Stack data-testid="nav-menu" direction={"row"} gap={2}>
       <Typography
         sx={{
           textDecoration:

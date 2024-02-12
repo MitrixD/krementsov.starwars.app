@@ -1,5 +1,10 @@
 import { FC } from "react";
-import {Autocomplete, TextField, useMediaQuery, useTheme} from "@mui/material";
+import {
+  Autocomplete,
+  TextField,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
 import { TOptions } from "../../types/options.ts";
 
 interface SelectFilterProps {
