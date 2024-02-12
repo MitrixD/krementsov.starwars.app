@@ -2,16 +2,17 @@
 This React application provides information about characters, ships, and episodes from the Star Wars universe. It utilizes an open GraphQL API provided by Star Wars SWAPI as the data source.
 
 ### Overview
-The application consists of several pages, each accessible via a unique URL and featuring routing. It's built using React and is designed to be responsive, supporting various screen resolutions. While the design of the application is flexible, it aims to prioritize readability and clarity.
+The application consists of several pages, each accessible via a unique URL and featuring routing. It's built using React and is designed to be responsive, supporting various screen resolutions.  
+While the design of the application is flexible, it aims to prioritize readability and clarity.
 
 ### Pages
 Home Page: Displays all sections.
-Characters Page: Shows a list of characters with their names and images. Users can filter the list by different criteria such as planet, species, or episode.
-Character Details Page: Retrieves detailed information about a specific character, including name, origin, affiliation, and episodes.
-Ships Page: Displays a list of ships with their names and images.
-Ship Details Page: Retrieves information about a specific ship, including name, class, model, and images.
-Episodes Page: Displays a list of episodes with their titles, release years, and image.
-Episode Details Page: Retrieves information about a specific Star Wars episode.
+Characters Page: Shows a list of characters with their names and images. Users can filter the list by different criteria such as planet, species, or episode.   
+Character Details Page: Retrieves detailed information about a specific character, including name, origin, affiliation, and episodes.  
+Ships Page: Displays a list of ships with their names and images.  
+Ship Details Page: Retrieves information about a specific ship, including name, class, model, and images.  
+Episodes Page: Displays a list of episodes with their titles, release years, and image.  
+Episode Details Page: Retrieves information about a specific Star Wars episode.  
 
 ## Implementation
 The application leverages React components to structure each page and utilize GraphQL queries to fetch data from the Star Wars SWAPI GraphQL API. Routing is managed using React Router, enabling seamless navigation between different pages. 
