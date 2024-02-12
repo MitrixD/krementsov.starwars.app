@@ -6,9 +6,27 @@ on:
       - main
 
 jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+
+      - name: Run tests
+        run: npm test
+
   build:
     name: Build
     runs-on: ubuntu-latest
+    needs: test
 
     steps:
       - name: Checkout repo
