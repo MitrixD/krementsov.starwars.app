@@ -8,6 +8,5 @@ export default defineConfig({
     outDir: 'dist',
     chunkSizeWarningLimit: 1000,
   },
-  // base: '/krementsov.starwars.app/'
-  base: '/'
+  base: '/krementsov.starwars.app/'
 })

@@ -14,7 +14,7 @@ import NotFoundPage from "./pages/NotFoundPage.tsx";
 function App() {
   return (
     <Container>
-      <Router>
+      <Router basename="/krementsov.starwars.app">
         <Navbar />
         <Routes>
           <Route path={URL_PATHS.HOME_PAGE} element={<HomePage />} />
