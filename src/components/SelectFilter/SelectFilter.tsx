@@ -28,8 +28,6 @@ const SelectFilter: FC<SelectFilterProps> = (props) => {
       getOptionLabel={(option) => option.name}
       onChange={(_event, newValue) => onSelectValue(newValue?.name ?? null)}
       renderInput={(params) => <TextField {...params} label={label} />}
-      autoSelect
-      clearOnBlur={false}
     />
   );
 };

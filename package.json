@@ -31,5 +31,8 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
-  }
+  },
+  "repository": "https://github.com/MitrixD/krementsov.starwars.app.git",
+  "license": "MIT",
+  "author": "Krementsov Dmitriy"
 }
