@@ -19,7 +19,7 @@ const ItemCard: FC<TProps> = memo((props) => {
           component="img"
           sx={{ width: "100%", height: "auto" }}
           image={imageUrl}
-          alt={title}
+          alt={title || 'Image title'}
         />
         <CardContent
           sx={{

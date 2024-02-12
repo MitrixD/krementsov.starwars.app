@@ -22,6 +22,7 @@ const SelectFilter: FC<SelectFilterProps> = (props) => {
   return (
     <Autocomplete
       id={id}
+      data-testid="select-filter"
       sx={{
         width: isSmallScreen ? "100%" : "auto",
         minWidth: isSmallScreen ? "100%" : 150,
